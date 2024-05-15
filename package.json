@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-rainfall": "^0.1.533",
     "react-router-dom": "^6.21.1",
+    "vite-plugin-node-polyfills": "^0.21.0",
     "web3": "^4.3.0"
   },
   "devDependencies": {
