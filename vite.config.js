@@ -8,6 +8,6 @@ export default defineConfig({
     react(),
     nodePolyfills()
   ],
-  base: "/"
+  base: "/crypto-explorer-website/"
   
 })
