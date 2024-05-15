@@ -1,0 +1,113 @@
+@font-face {
+    font-family:'bold' ;
+    src: url('../../../../assets/fonts/oxygen/Oxygen-Bold.ttf') format('truetype');
+  }
+
+* {
+    color: white;
+}
+.swap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+}
+.swap-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    gap: 20px;
+}
+.swap-top-text h3 {
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    color: rgb(255, 115, 0);
+}
+.swap-top-text p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+.swap-interface {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.swap-form {
+    width: 30%;
+    background-color: rgb(57, 57, 57);
+    border-radius: 30px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.swap-form h4 {
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.swap-form .convert-text {
+    padding-top: 30px;
+}
+.swap-form form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.swap-form .input-field {
+    background-color: rgba(255, 255, 255, 0.299);
+    border-color: transparent;
+    color: white;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "bold";
+    letter-spacing: 2px;
+}
+.swap-form .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.sepoliaETH-to-XPLRCOIN {
+    margin-top: 10px; 
+    height: 20px;
+}
+.swap-form button {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color:white;
+    border-style:groove;
+    color: white;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+}
+.swap-form button:hover {
+    cursor: pointer;
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transform: scale3d(1.1, 1.1, 1);
+}
+.swap-guide-text {
+    width: 30%;
+
+}
+.swap-guide-text p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.swap-guide-text p a {
+    color: rgb(255, 115, 0);
+    font-family: "bold";
+}

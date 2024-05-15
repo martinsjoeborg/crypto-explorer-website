@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'bold' ;
+    src: url('../../../assets/fonts/oxygen/Oxygen-Bold.ttf') format('truetype');
+  }
+
+.defi-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.defi-top-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.defi-title {
+    color: rgb(255, 115, 0);
+    font-size: 2.3rem;
+    font-family: "bold";
+    letter-spacing: 5px;
+    padding-top: 3%;
+    line-height: 12px;
+}
+.defi-intro-text {
+    color: white;
+    padding-top: 3%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+.defi-boxes {
+    background-color: rgb(111, 111, 111);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.defi-boxes a {
+    border-radius: 5px;
+}
+.defi-boxes .box {
+    height: 40vh;
+    width: 22%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.defi-boxes .box:hover {
+    background-color: rgb(57, 57, 57);
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.defi-boxes .box .title {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    color: rgb(97, 97, 97);
+    transition: all 0.3s;
+}
+.defi-boxes .box:hover .title{
+    position: relative;
+    color: rgb(255, 115, 0);
+    bottom: 20px;
+}
+.text {
+    display: none;
+    transition: all 0.3s;
+}
+.stake .text {
+    display: none;
+    transition: all 0.3s;
+}
+.defi-boxes .box:hover .text {
+    display: block;
+}

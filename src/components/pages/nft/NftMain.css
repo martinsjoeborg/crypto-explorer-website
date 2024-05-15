@@ -1,0 +1,11 @@
+.nftMain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nftMain-container h3 {
+    margin-top: 10%;
+    letter-spacing: 2px;
+    color: rgb(255, 115, 0);
+}

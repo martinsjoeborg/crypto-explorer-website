@@ -1,0 +1,57 @@
+@font-face {
+    font-family:'bold' ;
+    src: url('../../../assets/fonts/oxygen/Oxygen-Bold.ttf') format('truetype');
+  }
+@font-face {
+font-family:'reg' ;
+src: url('../../../assets/fonts/oxygen/Oxygen-Regular.ttf') format('truetype');
+}
+
+.home-container {
+    height: 100vh;
+    background-color: rgb(111, 111, 111);
+}
+.home-intro-text {
+    margin-top: 15%;
+    padding-left: 5%;
+    z-index: 2;
+}
+.home-container .home-intro-text h1 {
+    background-image: linear-gradient(38deg, rgba(255,115,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,115,0,1) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   letter-spacing: 5px;
+   font-size: 1.5rem;
+   font-family: "bold";
+   z-index: 2;
+}
+.home-container .home-intro-text h3 {
+    margin-top: 40px;
+    letter-spacing: 3px;
+   font-size: 1rem;
+   font-family: "bold";
+}
+.home-guide-text {
+    margin-top: 50px;
+    padding-left: 5%;
+}
+.home-guide-text h2 {
+    letter-spacing: 2px;
+    color: rgb(255, 115, 0);
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    font-family: "bold";
+    letter-spacing: 2px;
+}
+.links a:hover {
+    color: rgb(255, 115, 0);
+}
+.home-guide-text p {
+    margin-top: 20px;
+    font-family: "bold";
+    letter-spacing: 2px;
+    color: rgb(255, 115, 0);
+}

@@ -1,0 +1,238 @@
+.borrowLend-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    height: 210vh;
+    background-color: grey;
+}
+.borrowLend-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 20px;
+}
+.borrowLend-top-text h3 {
+    margin-top: 60px;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    color: rgb(255, 115, 0);
+}
+.borrowLend-top-text p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+.borrowLend-guide-text {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 10%;
+    margin-top: 20px;
+}
+.borrow-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: .8rem;
+}
+.borrow-text p {
+    margin-top: 20px;
+}
+.borrow-text p a {
+    color: rgb(255, 115, 0);
+    font-family: "bold";
+}
+.borrow-text h4 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: rgb(255, 115, 0);
+}
+.lend-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: .8rem;
+}
+.lend-text p {
+    margin-top: 20px;
+}
+.lend-text p a {
+    color: rgb(255, 115, 0);
+    font-family: "bold";
+}
+.lend-text h4 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: rgb(255, 115, 0);
+}
+.borrowLend-form-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    gap: 15%;
+    margin-top: 20px;
+    background-color: grey;
+}
+.borrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    height: 97%;
+    width: 30%;
+    border-radius: 30px;
+}
+.borrow-container h4 {
+    margin-top: 20px;
+    color: rgb(255, 115, 0);
+    letter-spacing: 2px;
+}
+.borrow-container .borrow-info-text {
+    margin-top: 20px;
+    text-align: center;
+}
+.borrow-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.borrow-container input {
+    background-color: rgba(255, 255, 255, 0.299);
+    border-color: transparent;
+    color: white;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "bold";
+    letter-spacing: 2px;
+}
+.borrow-container input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.borrow-container button {
+    font-size: .8rem;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color:white;
+    border-style:groove;
+    color: white;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.borrow-container button:hover {
+    cursor: pointer;
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.borrow-container .repayAmount-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.repayAmount-container .getRepayAmount {
+    width: 200px;
+}
+.borrow-container .repayAmount-container p {
+    margin-top: 20px;
+}
+.borrow-container .approve-form p {
+    margin-top: 20px;
+}
+.lend-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    height: 60%;
+    border-radius: 30px;
+}
+.lend-container h4 {
+    margin-top: 20px;
+    color: rgb(255, 115, 0);
+}
+.lend-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.lend-container .lockDuration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lockDuration-container .lockDurationBtns button{
+    margin-top: 20px;
+    width: 70px;
+}
+.lockDuration-container .lockDurationBtns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.lend-container .deposit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lend-container .deposit-form .lend-deposit-btn {
+    margin-top: 20px;
+}
+.lend-container .withdraw-container {
+    margin-top: 20px;
+}
+.lend-container button {
+    font-size: .8rem;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color:white;
+    border-style:groove;
+    color: white;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+}
+.lend-container button:hover {
+    cursor: pointer;
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transform: scale3d(1.1, 1.1, 1);
+}
+.lend-container input { 
+    background-color: rgba(255, 255, 255, 0.299);
+    border-color: transparent;
+    color: white;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "bold";
+    letter-spacing: 2px;
+}
+.lend-container input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family:'bold' ;
+    src: url('../../../../assets/fonts/oxygen/Oxygen-Bold.ttf') format('truetype');
+}
+
+.stake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.stake-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    gap: 20px;
+}
+.stake-top-text h3 {
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    color: rgb(255, 115, 0);
+}
+.stake-top-text p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+.stake-interface {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(111, 111, 111);
+}
+.stake-form {
+    width: 45%;
+    background-color: rgb(57, 57, 57);
+    border-radius: 30px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+}
+.stake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stake h4 {
+    color: rgb(255, 115, 0);
+}
+.stake button {
+    margin-top: 20px;
+}
+.amountEarned {
+    margin-top: 20px;
+}
+.withdraw-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.withdraw h4{
+    color: rgb(255, 115, 0);
+}
+.withdraw-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.withdraw-form button {
+    margin-top: 20px;
+}
+.amountStaked .getValue .staked-btn{
+    margin-top: 0;
+}
+.stake-form h4 {
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.stake-form form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.stake-form .input-field {
+    background-color: rgba(255, 255, 255, 0.299);
+    border-color: transparent;
+    color: white;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "bold";
+    letter-spacing: 2px;
+}
+.stake-form .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.getValue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stake-form button {
+    font-size: .8rem;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color:white;
+    border-style:groove;
+    color: white;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+}
+.stake-form button:hover {
+    cursor: pointer;
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transform: scale3d(1.1, 1.1, 1);
+}
+.stake-guide-text {
+    width: 30%;
+}
+.stake-guide-text p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: .8rem;
+}
+.stake-guide-text p a {
+    color: rgb(255, 115, 0);
+    font-family: "bold";
+}

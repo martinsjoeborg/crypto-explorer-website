@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'bold' ;
+    src: url('./assets/fonts/oxygen/Oxygen-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family:'reg' ;
+    src: url('./assets/fonts/oxygen/Oxygen-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family:'light' ;
+    src: url('./assets/fonts/oxygen/Oxygen-Light.ttf') format('truetype');
+  }
+* {   
+    margin: 0;
+    padding: 0;
+    font-family: "reg";
+ }
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#root {
+    color: black;
+    background-color: rgb(111, 111, 111);
+    height: 100vh;
+    
+}
+
