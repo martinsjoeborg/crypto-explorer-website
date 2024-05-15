@@ -8,7 +8,7 @@ import DefiMain from "./components/pages/defi/DefiMain.jsx";
 import SwapMain from "./components/pages/defi/swap/SwapMain.jsx";
 import StakeMain from "./components/pages/defi/stake/StakeMain.jsx";
 import BorrowLendMain from "./components/pages/defi/borrow-lend/BorrowLendMain.jsx";
-import DaoMain from "./components/pages/dao/daoMain.jsx";
+import DaoMain from "./components/pages/dao/DaoMain.jsx";
 import NftMain from "./components/pages/nft/NftMain.jsx";
 
 function App() {
