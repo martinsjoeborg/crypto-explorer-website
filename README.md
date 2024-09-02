@@ -12,4 +12,6 @@ To use this website you need a metamask wallet, be connected to the sepolia test
  
 <h4>What I have learned:</h4>
 From working on this project, I have learned how to create tokens on the sepolia network, construct smart contracts with solidity that lets a user swap, stake, borrow and lend tokens. 
-The site worked well until I tried to upload it to GH-pages, right now the frontend is deformed but I am working on fixing this issue. The underlaying functionality works just as it should. 
+I have also learned a lot about deploying React Vite projects to Github Pages. 
+
+<h4>The project is a work in progress and I aim to expand the current content and add functionality to the "DAO" and "NFT" pages.</h4>
