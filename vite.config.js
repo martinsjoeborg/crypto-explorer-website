@@ -7,7 +7,5 @@ export default defineConfig({
   plugins: [
     react(),
     nodePolyfills()
-  ],
-  base: "/crypto-explorer-website/"
-  
+  ]
 })

@@ -18,7 +18,7 @@ function App() {
   return (
       <BrowserRouter>
         <div className="navbar">
-          <Link to="/home" className="header-logo">Crypto Explorer</Link>
+          <Link to="/" className="header-logo">Crypto Explorer</Link>
           <nav className="menuBtns">
             <NavLink to="/defi" className={({ isActive }) => (isActive ? "isActive" : "defi")}>DeFi</NavLink>
             <NavLink to="/dao" className={({ isActive }) => (isActive ? "isActive" : "dao")}>DAO</NavLink>
@@ -26,9 +26,9 @@ function App() {
           </nav>
           <ConnectWallet currentAccount={currentAccount} setCurrentAccount={setCurrentAccount} />
         </div>
-        <Home />
+        {/* <Home /> */}
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/defi" element={<DefiMain />} />
           <Route path="/defi/swap" element={<SwapMain currentAccount={currentAccount} />} />
