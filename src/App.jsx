@@ -28,7 +28,7 @@ function App() {
         </div>
         {/* <Home /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/crypto-explorer-website" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/defi" element={<DefiMain />} />
           <Route path="/defi/swap" element={<SwapMain currentAccount={currentAccount} />} />
