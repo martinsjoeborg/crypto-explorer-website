@@ -18,24 +18,24 @@ function App() {
   return (
       <BrowserRouter>
         <div className="navbar">
-          <Link to="/" className="header-logo">Crypto Explorer</Link>
+          <Link to="/crypto-explorer-website/" className="header-logo">Crypto Explorer</Link>
           <nav className="menuBtns">
-            <NavLink to="/defi" className={({ isActive }) => (isActive ? "isActive" : "defi")}>DeFi</NavLink>
-            <NavLink to="/dao" className={({ isActive }) => (isActive ? "isActive" : "dao")}>DAO</NavLink>
-            <NavLink to="/nft" className={({ isActive }) => (isActive ? "isActive" : "nft")}>NFT</NavLink>
+            <NavLink to="/crypto-explorer-website/defi" className={({ isActive }) => (isActive ? "isActive" : "defi")}>DeFi</NavLink>
+            <NavLink to="/crypto-explorer-website/dao" className={({ isActive }) => (isActive ? "isActive" : "dao")}>DAO</NavLink>
+            <NavLink to="/crypto-explorer-website/nft" className={({ isActive }) => (isActive ? "isActive" : "nft")}>NFT</NavLink>
           </nav>
           <ConnectWallet currentAccount={currentAccount} setCurrentAccount={setCurrentAccount} />
         </div>
         {/* <Home /> */}
         <Routes>
-          <Route path="/crypto-explorer-website" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/defi" element={<DefiMain />} />
+          <Route path="/crypto-explorer-website/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/crypto-explorer-website/defi" element={<DefiMain />} />
           <Route path="/defi/swap" element={<SwapMain currentAccount={currentAccount} />} />
           <Route path="/defi/stake" element={<StakeMain currentAccount={currentAccount}/>} />
           <Route path="/defi/borrow-lend" element={<BorrowLendMain currentAccount={currentAccount}/>} />
-          <Route path="/dao" element={<DaoMain />} />
-          <Route path="/nft" element={<NftMain />} />
+          <Route path="/crypto-explorer-website/dao" element={<DaoMain />} />
+          <Route path="/crypto-explorer-website/nft" element={<NftMain />} />
 
         </Routes>
       </BrowserRouter>
